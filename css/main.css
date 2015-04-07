@@ -16,7 +16,7 @@ body {
 	max-width: 200px;
 }
 
-ul li {
+#compthumbs li {
 	list-style: none;
 	display: inline-block;
 }
@@ -24,11 +24,25 @@ ul li {
 #leftform {
 	float: left;
 	padding-left: 20%;
+
 }
+
+#leftform li{
+	list-style: none;
+	padding-top: 10px;
+}
+
+
 
 #desk{
 	float: right;
 	padding-right: 20%;
+}
+
+#desk li{
+	list-style: none;
+	padding-top: 5px;
+	min-width: 200px;
 }
 
 #floorsnavigation{
@@ -57,3 +71,4 @@ ul li {
 #floor2map img, #floor3map img, #floor4map img{
 	max-width: 100%;
 }
+

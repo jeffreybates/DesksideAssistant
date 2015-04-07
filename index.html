@@ -12,8 +12,6 @@
 
 </head>
 
-test text
-
 <body>
 
 <ul id="compthumbs">
@@ -37,60 +35,83 @@ test text
 </ul>
 
 <form id="form">
-<div id="leftform">
-	USERNAME:<br>
-	<input type="text" name="username"><br />
-		
-	COMPUTER: <br>
-	<input type="text" name="computerasset" ><br>
-		
-	<div id="mon1">
-	MONITOR 1:<br>
-		<input type="text" name="monitorasset1" value="" ><br>
-	</div>
 	
-	<div id="mon2">
-	MONITOR 2:<br>
-	<input type="text" name="monitorasset2" value="" ><br>
-	</div>
+<div id="leftform">
+	<ul>
+		<li>
+			USERNAME: <input type="text" name="username">
+		</li>
+		<li>
+			COMPUTER: <input type="text" name="computerasset" >
+		</li>
+		<li id="mon1">
+			MONITOR 1: <input type="text" name="monitorasset1" value="" >
+		</li>
+		<li id="mon2">
+			MONITOR 2: <input type="text" name="monitorasset2" value="" >
+		</li>
+	</ul>
 </div>
+
+
 <div id="desk">
 
-	Desk#
+	Desk# <input type="text" name="desk" value="Enter Desk Number" id="desknumber" />
 <ul>
 	
-	<li>
-		<input type="text" name="desk" value="somenumbe" id="desknumber" />
+	<li id="macdesktop">
+		<input type="checkbox" name="" value=""  />	 Mac Desktop
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 Computer
+	<li id="pcdesktop" >
+		<input type="checkbox" name="" value=""/>	 PC Desktop
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 Dock
+	<li id="pclaptop" >
+		<input type="checkbox" name="" value=""/>	 PC Laptop
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 Monitor(s)
+	<li id="maclaptop" >
+		<input type="checkbox" name="" value=""/>	 Mac Laptop
+	</li>
+	<li id="laptop" >
+		<input type="checkbox" name="" value=""/>	 Dock
+	</li>
+	<li id="monitorOne">
+		<input type="checkbox" name="" value="" />	 Monitor (1x)
+	</li>
+	<li id="monitorTwo" >
+		<input type="checkbox" name="" value=""/>	 Monitors (2x)
 	</li>
 	<li>
 		<input type="checkbox" name="" value="" />	 Phone
 	</li>
-	<li>
+	<li id="bag">
 		<input type="checkbox" name="" value="" />	 Bag
 	</li>
 	<li>
 		<input type="checkbox" name="" value="" />	 Ethernet (2x)
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 Monitor Power Cable
+	<li id="monitorPower1">
+		<input type="checkbox" name="" value=""/>	 Monitor Power Cable (1x)
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 Power Adapter (2x)
+	<li id="monitorPower2" >
+		<input type="checkbox" name="" value=""/>	 Monitor Power Cables (2x)
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 DVI or MiniDisplay
+	<li id="laptoppower">
+		<input type="checkbox" name="" value="" />	 Power Adapters (2x)
 	</li>
-	<li>
-		<input type="checkbox" name="" value="" />	 Cable Lock
+	<li id="desktoppower">
+		<input type="checkbox" name="" value="" />	 Desktop Power Cable
+	</li>
+	<li id="pc" >
+		<input type="checkbox" name="" value=""/>	 DVI
+	</li>
+	<li id="minidisplay1" >
+		<input type="checkbox" name="" value=""/>	 MiniDisplay Port to HDMI (1x)
+	</li>
+	<li id="minidisplay2" >
+		<input type="checkbox" name="" value=""/>	 MiniDisplay Port to HDMI (2x)
+	</li>
+	<li id="cablelock" >
+		<input type="checkbox" name="" value=""/>	 Cable Lock
 	</li>
 	<li>
 		<input type="checkbox" name="" value="" />	 Mouse
@@ -98,9 +119,8 @@ test text
 	<li>
 		<input type="checkbox" name="" value="" />	 Keyboard
 	</li>
-	<li>
-		
-	<input type="checkbox" name="" value="" />	 Thunderbolt Cable
+	<li id="thunderbolt" >
+	<input type="checkbox" name="" value=""/>	 Thunderbolt Cable
 	</li>
 	<li>
 		<input type="submit" value="Submit" id="submit">

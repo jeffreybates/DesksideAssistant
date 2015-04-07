@@ -11,12 +11,29 @@ $("#floor2map").toggle();
 $("#floor3map").toggle();
 $("#floor4map").toggle();
 $("#floorsnavigation").toggle();
-	
 
+$("#maclaptop").toggle();
+$("#pclaptop").toggle();
+$("#pcdesktop").toggle();
+$("#macdesktop").toggle();
+$("#mac").toggle();
+$("#pc").toggle();
+$("#laptoppower").toggle();
+$("#desktop").toggle();
+$("#laptop").toggle();
+
+
+$("#monitorOne").toggle();
+$("#monitorTwo").toggle();
+$("#thunderbolt").toggle();
+$("#cablelock").toggle();
+$("#bag").toggle();
+$("#monitorPower1").toggle();
+$("#monitorPower2").toggle();
+$("#minidisplay1").toggle();
+$("#minidisplay2").toggle()
 
 	//show Dell Desktop specific things
-
-
 
 
 $("#delldeskimage").click(function() {
@@ -33,6 +50,14 @@ $("#delldeskimage").click(function() {
 	$("#floor2map").hide();
 	$("#floor3map").hide();
 	$("#floor4map").hide();
+
+	$("#pcdesktop").toggle();
+	$("#pc").toggle();
+	$("#desktop").toggle();
+	$("#monitorTwo").toggle();
+	$("#monitorPower2").toggle();
+
+
 });
 });
 
@@ -56,6 +81,15 @@ $("#macproimage").click(function() {
 	$("#floor3map").hide();
 	$("#floor4map").hide();
 
+	$("#macdesktop").toggle();
+	$("#mac").toggle();
+	$("#desktop").toggle();
+	$("#monitorTwo").toggle();
+	$("#desktoppower").toggle();
+	$("#monitorPower2").toggle();
+	$("#minidisplay2").toggle()
+
+
 });
 });
 
@@ -76,6 +110,18 @@ $("#delllaptopimage").click(function() {
 	$("#floor2map").hide();
 	$("#floor3map").hide();
 	$("#floor4map").hide();
+
+	$("#pclaptop").toggle();
+	$("#pc").toggle();
+	$("#laptoppower").toggle();
+	$("#monitorOne").toggle();
+	$("#desktoppower").toggle();
+	$("#cablelock").toggle();
+	$("#laptop").toggle();
+	$("#bag").toggle();
+	$("#monitorPower1").toggle();
+
+
 });
 
 
@@ -96,6 +142,17 @@ $("#macbookproimage").click(function() {
 	$("#floor2map").hide();
 	$("#floor3map").hide();
 	$("#floor4map").hide();
+
+	$("#mac").toggle();
+	$("#maclaptop").toggle();
+	$("#laptoppower").toggle();
+	$("#monitorOne").toggle();
+	$("#thunderbolt").toggle();
+	$("#laptop").toggle();
+	$("#bag").toggle();
+	$("#monitorPower1").toggle();
+	$("#minidisplay1").toggle();
+
 });
 
 $("#fl2").click(function() {
