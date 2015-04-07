@@ -1,0 +1,59 @@
+body {
+	background-color: white;
+	color: grey;
+	font-family: Helvetica;
+}
+
+#username {
+
+}
+
+#compthumbs{
+	text-align: center;
+}
+
+#compthumbs img{
+	max-width: 200px;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+#leftform {
+	float: left;
+	padding-left: 20%;
+}
+
+#desk{
+	float: right;
+	padding-right: 20%;
+}
+
+#floorsnavigation{
+	text-align: center;
+	clear: both;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#floor2map{
+	clear: both;
+	text-align: center;
+}
+
+#floor3map{
+	clear: both;
+	text-align: center;
+}
+
+#floor4map{
+	clear: both;
+	text-align: center;
+	
+}
+
+#floor2map img, #floor3map img, #floor4map img{
+	max-width: 100%;
+}

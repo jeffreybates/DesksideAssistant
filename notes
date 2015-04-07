@@ -1,0 +1,33 @@
+
+// Web app tool for tracking the progress of a deploy,
+// from the moment the request is made, to the moment
+// we set it up on their desk and do our final checks.
+// You can begin the process on your desktop, pick up where
+// you left off on your phone, or other device, anyone in
+// our team can pickup an in progress deploy, or just see
+// where a given deploy is in the process.
+// Once the deploy is done, you'll tap or click Finished,
+// everything will validate, and then send the appropriate
+// asset numbers to Susan and close the ESR.
+
+// Josh Sarrett has goals that align with this, and says
+// he can get me access to the API.
+
+// This will give us extremely consistent experiences for
+// our clients, and ensure we track all our hardware even
+// better than we have in the past, as well as making an end
+// of "what's the status of these laptops all over the room?"
+
+// Version 1 of this was a paper form that we attached to the 
+// computers, and techs have attested to the value it adds,
+// eleviating ambiguity.
+
+// Reclaim old AC adapter.
+
+// Aperture VIEW
+// Planex
+// ESR
+
+// proper item list visibility for each computer setup
+
+// map number to location on image
