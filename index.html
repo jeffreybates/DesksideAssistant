@@ -7,6 +7,7 @@
 
 <title>Deskside Assistant</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 
 <!-- 
 <meta http-equiv="refresh" content="5"> -->
@@ -17,27 +18,35 @@
 
 <ul id="compthumbs">
 
-<li>
-<img src="image/macpro.png" id="macproimage" />
+<li id="macproimage" >
+<img src="image/macpro.png"/>  <p>Mac Pro Desktop</p>
 </li>
 
-<li>
-<img src="image/delldesk.png" id="delldeskimage" />
+<li id="delldeskimage" >
+<img src="image/delldesk.png"/>  <p>Dell Desktop</p>
 </li>
 
-<li>
-<img src="image/macbookpro.png" id="macbookproimage" />
+
+<li id="macbookproimage">
+<img src="image/macbookpro.png"/>  <p>Macbook Pro Laptop</p>
 </li>
 
-<li>
-<img src="image/delllaptop.png" id="delllaptopimage" />
+<li id="delllaptopimage" >
+<img src="image/delllaptop.png"/>  <p>Dell Laptop</p>
 </li>
 
 </ul>
 
 <form id="form">
+
+<div id="desknumberdiv">
+Desk#
+<input type="text" name="desk" value="" id="desknumber" />
+</div>
+
 	
 <div id="leftform">
+
 	<ul>
 		<li>
 			USERNAME: <input type="text" name="username">
@@ -57,7 +66,7 @@
 
 <div id="desk">
 
-	Desk# <input type="text" name="desk" value="Enter Desk Number" id="desknumber" />
+
 <ul>
 	
 	<li id="macdesktop">
@@ -121,18 +130,16 @@
 		<input type="checkbox" name="" value="" />	 Keyboard
 	</li>
 	<li id="thunderbolt" >
-	<input type="checkbox" name="" value=""/>	 Thunderbolt Cable
+	<input type="checkbox" name="" value=""/>	 Thunderbolt Cable
 	</li>
-	<li>
-		<input type="submit" value="Submit" id="submit">
-	</li>
-	
-
 
 </ul>
-
 </div>
 
+
+<div id="submitbutton">
+<input type="submit" value="Submit" id="submit">
+</div>
 
 </form>
 
@@ -156,7 +163,21 @@
 <img src="image/maps/floor4.png">
 </div>
 
+<nav>
+	<ul>
+		<li id="deploybutton">
+			Deploy
+		</li>
 
+		<li id="locatebutton">
+			Locate
+		</li>
+
+		<li id="returnbutton">
+			Return
+		</li>
+	</ul>
+</nav>
 
 <script src="js/jquery.js" type="text/javascript"></script>
 

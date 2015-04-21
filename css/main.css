@@ -4,6 +4,7 @@ body {
 	font-family: Helvetica;
 }
 
+
 #username {
 
 }
@@ -21,6 +22,11 @@ body {
 	display: inline-block;
 }
 
+#desknumberdiv{
+	clear: both;
+	padding-left: 20%;
+}
+
 #leftform {
 	float: left;
 	padding-left: 20%;
@@ -30,9 +36,17 @@ body {
 #leftform li{
 	list-style: none;
 	padding-top: 10px;
+	text-align: right;
+
 }
 
-
+#leftform ul{
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: lightgrey;
+	border-width: 5px;
+}
 
 #desk{
 	float: right;
@@ -43,7 +57,17 @@ body {
 	list-style: none;
 	padding-top: 5px;
 	min-width: 200px;
+
 }
+
+#desk ul{
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: lightgrey;
+	border-width: 5px;
+}
+
 
 #floorsnavigation{
 	text-align: center;
@@ -72,3 +96,7 @@ body {
 	max-width: 100%;
 }
 
+#submitbutton{
+	clear: both;
+	text-align: center;
+}

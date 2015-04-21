@@ -1,0 +1,232 @@
+/*Computer thumbnails list*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#compthumbs li {
+margin-top: 0;
+margin-bottom: 0;
+padding-right: 80px;
+
+
+}
+}
+
+
+/*Mac Pro*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#macproimage img {
+max-width: 100px;
+}
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#macproimage p {
+font-size: 5em;
+display: inline-block;
+
+}
+}
+
+/*Macbook Pro*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#macbookproimage img {
+max-width: 100px;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#macbookproimage p {
+font-size: 5em;
+display: inline-block;
+
+
+}
+}
+
+/*PC Desktop*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#delldeskimage img {
+max-width: 100px;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#delldeskimage p {
+font-size: 5em;
+display: inline-block;
+
+
+}
+}
+
+/*PC Laptop*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#delllaptopimage img {
+max-width: 100px;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#delllaptopimage p {
+font-size: 5em;
+display: inline-block;
+
+
+}
+}
+
+/*Desk Number*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#desknumberdiv {
+font-size: 2em;
+padding-left: 80px;
+padding-bottom: 80px;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#desknumberdiv input {
+font-size: 1.5em;
+text-align: center;
+padding-left: 90px;
+
+
+}
+}
+
+/*Left form*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#leftform{
+width: 95%;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#leftform ul{
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#leftform li {
+font-size: 2em;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#leftform input {
+font-size: 1.5em;
+min-width: 580px;
+
+
+}
+}
+
+/*Desk Items*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#desk {
+width: 95%;
+padding-right: 20px;
+padding-left: 20px;
+float: center;
+clear: both;
+}
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#desk li {
+font-size: 3em;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#desk input[type="checkbox"] {
+width: 80px;
+height: 80px;
+background-color: pink;
+
+}
+}
+
+/*Submit Button*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#submitbutton input {
+clear: both;
+font-size: 4em;
+
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#submitbutton  {
+clear: both;
+text-align: center;
+
+padding-bottom: 200px;
+}
+}
+
+/*nav buttons*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+nav  {
+position: fixed;
+bottom: 0;
+right: 0;
+left: 0;
+font-size: 5em;
+text-align: center;
+}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+nav li  {
+display: inline-block;
+width: 250px;
+text-align: center;
+}
+}
+
+
+/*Deploy Button*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#deploybutton  {
+background-color: pink;
+}
+}
+
+/*Locate Button*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#locatebutton  {
+background-color: pink;
+
+}
+}
+
+
+/*Return Button*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#returnbutton  {
+background-color: pink;
+}
+}
